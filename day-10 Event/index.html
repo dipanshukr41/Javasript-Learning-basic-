@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Events in js</h2>
+<p>the change in the state of an object is known as an event</p>
+<p>mouse event (click, double click)</p>
+<p>keyboard event</p>
+<p>form event (sumbit etc)</p>
+
+
+//example of Events
+
+<button onclick="console.log('click done');alert('hogya bhai click')">Click me</button>
+//single time click function hai
+
+<button ondblclick="console.log('click done');alert('hogya bhai click')">Click me 2 times</button>
+<button ondblclick="console.log('double click done'); alert('hogya bhai double click');">Double Click me</button>
+
+/n mouse hover
+<div onmouseover="console.log('aa gya box mein')" onmouseleave="console.log('baitho baitho kha kr jana')">
+    hello i am div
+</div>
+<comment>hmlog event ko aise inline mein bhi use kr sakte hai lekin ye ek accha way nahi isliye js mein aao usmein kiya jaye itna din lagaye hai js mein html mein hi code likneke liya hattttt</comment>
+
+<br><br><br>
+//js practice for event <br> <br>
+
+<div id="btnn"><button>chu mere ko</button></div>
+
+
+<br><br><br>
+<h3>event object</h3>
+<p>it is special object that has details about the event  <br>
+All event handlers have access to the Event object's properties and methods</p>
+<br><br><br>
+<div id="bt"><button>chu mere ko</button></div>    
+
+
+<script src="script.js"></script>
+</body>
+</html>
